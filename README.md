@@ -31,6 +31,16 @@ Dobreta 242
 Eforie 161
 ```
 
+## Algorithms
+Both Graph-Search and Tree-Search versions of algorithms below are implemented.
+
+* Depth-First Search: DFS
+* Breadth-First Search: BFS
+* Uniform-Cost Search: UniformCost
+* Greedy Best-First Search: GreedyBestFirst
+* A-start Search: A*
+
+
 ## How to use
 Just run the `main.py` file with arguments like this.
 
