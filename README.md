@@ -53,3 +53,30 @@ python main.py --algorithm a* --graphFile graph.txt --heuristicFile heu.txt --st
 ```
 python main.py --algorithm a* --graphFile graph.txt --heuristicFile heu.txt --startNode Arad --goalNode Bucharest --treeSearch
 ```
+
+## Example Output
+```
+Starting A* Search
+-------------------------------------------------------------
+Frontier: [Arad 366]
+Explored: []
+-------------------------------------------------------------
+Frontier: [Sibiu 393, Timisoara 447, Zerind 449]
+Explored: [Arad]
+-------------------------------------------------------------
+Frontier: [Timisoara 447, Zerind 449, Fagaras 417, Oradea 671, Rimnicu Vilcea 413]
+Explored: [Arad, Sibiu]
+-------------------------------------------------------------
+Frontier: [Timisoara 447, Zerind 449, Fagaras 417, Oradea 671, Craiova 526, Pitesi 415]
+Explored: [Arad, Sibiu, Rimnicu Vilcea]
+-------------------------------------------------------------
+Frontier: [Timisoara 447, Zerind 449, Fagaras 417, Oradea 671, Craiova 526, Bucharest 418]
+Explored: [Arad, Sibiu, Rimnicu Vilcea, Pitesi]
+-------------------------------------------------------------
+Frontier: [Timisoara 447, Zerind 449, Oradea 671, Craiova 526, Bucharest 418]
+Explored: [Arad, Sibiu, Rimnicu Vilcea, Pitesi, Fagaras]
+-------------------------------------------------------------
+FOUND, PATH:
+Arad -> Sibiu -> Rimnicu Vilcea -> Pitesi -> Bucharest
+Path cost:  418
+```
